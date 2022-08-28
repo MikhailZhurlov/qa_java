@@ -28,6 +28,4 @@ public class CatTest {
         List<String>actualEatMeat = cat.getFood();
         Assert.assertEquals(expectedEatMeat, actualEatMeat);
     }
-
-
 }
