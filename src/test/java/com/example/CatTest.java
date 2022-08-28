@@ -14,7 +14,6 @@ public class CatTest {
     Feline feline = new Feline();
 
     @Test
-
     public void getCatSoundTest(){
         Cat cat = new Cat(feline);
         String expected = "Мяу";
@@ -23,7 +22,6 @@ public class CatTest {
     }
 
     @Test
-
     public void getEatMeatTest() throws Exception{
         Cat cat = new Cat(feline);
         List<String>expectedEatMeat = List.of("Животные", "Птицы", "Рыба");
